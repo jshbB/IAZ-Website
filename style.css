@@ -15,6 +15,7 @@ body {
             transform: translate(-50%, -50%);
             color: white;
         	font-size: 50px;
+            font-family: serif;
         }
 
         video {
@@ -31,9 +32,17 @@ body {
       left: 17%;
       font-size: 20px;
       color: white;
+      font-family: 'Dhurjati', sans-serif;
     }
 
-
+@media (max-width: 768px) {
+    .hero {
+        flex: 1;
+        min-width: calc(100% - 20px); 
+        margin: 50px 0;
+        margin-left: 20px;
+    }
+}
     ul {
       list-style: none;
       padding: 0;
